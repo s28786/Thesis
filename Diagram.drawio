@@ -1,0 +1,88 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.17 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.17">
+  <diagram name="Page-1" id="unnvJ5DsKrHfU5F0GW6h">
+    <mxGraphModel dx="1180" dy="673" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="1NPrCWQ3IFfWTsVp3lAv-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="1NPrCWQ3IFfWTsVp3lAv-21" target="12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1NPrCWQ3IFfWTsVp3lAv-23" value="Frontend (Next.js)" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="227.5" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="1NPrCWQ3IFfWTsVp3lAv-21" value="Web Server" style="rounded=1;arcSize=40;strokeWidth=2" vertex="1" parent="1NPrCWQ3IFfWTsVp3lAv-23">
+          <mxGeometry x="52" y="76" width="96" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="1NPrCWQ3IFfWTsVp3lAv-24" value="Backend (.Net)" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="225" width="350" height="205" as="geometry" />
+        </mxCell>
+        <mxCell id="1NPrCWQ3IFfWTsVp3lAv-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1NPrCWQ3IFfWTsVp3lAv-24" source="12" target="1NPrCWQ3IFfWTsVp3lAv-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="12" value="API Gateway" style="rounded=1;arcSize=40;strokeWidth=2" parent="1NPrCWQ3IFfWTsVp3lAv-24" vertex="1">
+          <mxGeometry x="33" y="80" width="95" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="1NPrCWQ3IFfWTsVp3lAv-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;exitX=0.015;exitY=0.674;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1NPrCWQ3IFfWTsVp3lAv-24" source="1NPrCWQ3IFfWTsVp3lAv-28" target="12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1NPrCWQ3IFfWTsVp3lAv-28" value="Game logic service" style="rounded=1;arcSize=40;strokeWidth=2" vertex="1" parent="1NPrCWQ3IFfWTsVp3lAv-24">
+          <mxGeometry x="170" y="71.5" width="120" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="1NPrCWQ3IFfWTsVp3lAv-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="1NPrCWQ3IFfWTsVp3lAv-28" target="1NPrCWQ3IFfWTsVp3lAv-31">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="580" y="573" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1NPrCWQ3IFfWTsVp3lAv-33" value="User Database" style="rounded=1;arcSize=40;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="520" y="70" width="120" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="1NPrCWQ3IFfWTsVp3lAv-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="1NPrCWQ3IFfWTsVp3lAv-28" target="1NPrCWQ3IFfWTsVp3lAv-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1NPrCWQ3IFfWTsVp3lAv-37" value="Game Database" style="rounded=1;arcSize=40;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="680" y="70" width="120" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="1NPrCWQ3IFfWTsVp3lAv-38" value="F1 Data API (Jolpica)" style="rounded=1;arcSize=40;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="840" y="360" width="120" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="1NPrCWQ3IFfWTsVp3lAv-43" value="Databases (PostgresSQL)" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="450" y="20" width="420" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="1NPrCWQ3IFfWTsVp3lAv-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="1NPrCWQ3IFfWTsVp3lAv-28" target="1NPrCWQ3IFfWTsVp3lAv-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1NPrCWQ3IFfWTsVp3lAv-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1NPrCWQ3IFfWTsVp3lAv-28" target="1NPrCWQ3IFfWTsVp3lAv-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1NPrCWQ3IFfWTsVp3lAv-50" value="ML Deployment (Node.js)" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="480" width="260" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="1NPrCWQ3IFfWTsVp3lAv-31" value="Prediction service&#xa;(Tensorflow)" style="rounded=1;arcSize=40;strokeWidth=2" vertex="1" parent="1NPrCWQ3IFfWTsVp3lAv-50">
+          <mxGeometry x="70" y="60" width="120" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="1NPrCWQ3IFfWTsVp3lAv-51" value="External Services" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="810" y="310" width="190" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="1NPrCWQ3IFfWTsVp3lAv-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.954;entryY=0.804;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="12" target="1NPrCWQ3IFfWTsVp3lAv-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1NPrCWQ3IFfWTsVp3lAv-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.651;entryY=1.043;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="1NPrCWQ3IFfWTsVp3lAv-31" target="1NPrCWQ3IFfWTsVp3lAv-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1NPrCWQ3IFfWTsVp3lAv-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.958;entryY=0.892;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="1NPrCWQ3IFfWTsVp3lAv-38" target="1NPrCWQ3IFfWTsVp3lAv-28">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="710" y="409" />
+              <mxPoint x="710" y="355" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1NPrCWQ3IFfWTsVp3lAv-56" value="Add description&lt;div&gt;maybe split game logic service&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="120" width="130" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
